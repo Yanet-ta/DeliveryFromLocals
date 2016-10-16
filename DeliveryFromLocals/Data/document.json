@@ -1,0 +1,128 @@
+{
+    "categories": [
+                   {
+                   "categoryName": "Pizza",
+                   "desc": "Tasty",
+                   "image": "",
+                   "items": [
+                             {
+                             "foodName": "Four Cheese",
+                             "price": "450 ₽",
+                             "desc": "Mozzarella, Parmesan, Brie and Ricotta",
+                             "image": ""
+                             },
+                             {
+                             "foodName": "Marinara",
+                             "price": "550 ₽",
+                             "desc": "Shrimp, crab, tomatoes, cream sauce, mozzarella, garlic",
+                             "image": ""
+                             },
+                             {
+                             "foodName": "Margarita",
+                             "price": "300 ₽",
+                             "desc": "Mozzarella, tomatoes, tomato pizza sauce",
+                             "image": ""
+                             },
+                             {
+                             "foodName": "Pepperoni",
+                             "price": "500 ₽",
+                             "desc": "Pepperoni, mushrooms, tomato pizza sauce, mozzarella",
+                             "image": ""
+                             }
+                             ]
+                   },
+                   {
+                   "categoryName": "Salads",
+                   "desc": "Tasty",
+                   "image": "",
+                   "items": [
+                             {
+                             "foodName": "Green Salad",
+                             "price": "220 ₽",
+                             "desc": "Tomatoes, Green Pepper, Cucumber, Olive Oil",
+                             "image": ""
+                             },
+                             {
+                             "foodName": "Greek Salad",
+                             "price": "300 ₽",
+                             "desc": "Tomatoes, Green Pepper, Cucumber, Cheese, Olives",
+                             "image": ""
+                             },
+                             {
+                             "foodName": "Cesar Salad",
+                             "price": "350 ₽",
+                             "desc": "Parmesan cheese, Croutons, Chiken, lettuce, garlic, Olive  oil",
+                             "image": ""
+                             },
+                             {
+                             "foodName": "Coleslaw",
+                             "price": "200 ₽",
+                             "desc": "Cabbage, Carrot, Onion, Mayonnaise",
+                             "image": ""
+                             }
+                             ]
+                   },
+                   {
+                   "categoryName": "Drinks",
+                   "desc": "",
+                   "image": "",
+                   "items": [
+                             {
+                             "foodName": "Fresh Juice",
+                             "price": "150 ₽",
+                             "desc": "Orange",
+                             "image": ""
+                             },
+                             {
+                             "foodName": "Sparkling Water",
+                             "price": "110 ₽",
+                             "desc": "",
+                             "image": "sparklingWater.jpg"
+                             },
+                             {
+                             "foodName": "Black Tea",
+                             "price": "200 ₽",
+                             "desc": "",
+                             "image": ""
+                             },
+                             {
+                             "foodName": "Coca-Cola",
+                             "price": "100 ₽",
+                             "desc": "",
+                             "image": ""
+                             }
+                             ]
+                   },
+                   {
+                   "categoryName": "Burgers",
+                   "desc": "Tasty",
+                   "image": "",
+                   "items": [
+                             {
+                             "foodName": "Classic",
+                             "price": "450 ₽",
+                             "desc": "Beef, Lettuce, Tomato, Onion, Pickles",
+                             "image": ""
+                             },
+                             {
+                             "foodName": "Triple Bacon",
+                             "price": "550 ₽",
+                             "desc": "Beef, Bacon in, bacon on, BBQ bacon ranch & cheddar cheese",
+                             "image": ""
+                             },
+                             {
+                             "foodName": "Italian",
+                             "price": "300 ₽",
+                             "desc": "Mediterranean sausage, Mozzarella, Red pesto, Tomato, Red onion",
+                             "image": ""
+                             },
+                             {
+                             "foodName": "Avocado",
+                             "price": "400 ₽",
+                             "desc": "Avocado, Smoked bacon, Lettuce, Tomato, Red onion",
+                             "image": ""
+                             }
+                             ]
+                   }
+                   ]
+}

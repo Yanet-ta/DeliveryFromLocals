@@ -7,14 +7,25 @@
 //
 
 import UIKit
+import  SwiftyJSON
 
 class DetailsViewController: UIViewController {
-
+var currentItemJSON: JSON = JSON.null
+    
+    @IBOutlet weak var itemName: UILabel!
+    @IBOutlet weak var itemImage: UIImageView!
+    @IBOutlet weak var itemPrice: UILabel!
+    @IBOutlet weak var itemDesc: UITextView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        self.title = currentItemJSON["foodName"].string
+        self.itemName.text = currentItemJSON["foodName"].string
+        self.itemPrice.text = currentItemJSON["price"].string
+        self.itemDesc.text = currentItemJSON["desc"].string
+        self.itemImage.image = UIImage(named: currentItemJSON["image"].string!)
     }
+
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
@@ -22,14 +33,5 @@ class DetailsViewController: UIViewController {
     }
     
 
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
-    }
-    */
 
 }
