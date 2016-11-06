@@ -11,6 +11,21 @@
 		421E75291DB40763007814E8 /* CategoryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 421E75281DB40763007814E8 /* CategoryTableViewCell.swift */; };
 		421E752B1DB41DB2007814E8 /* ItemTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 421E752A1DB41DB2007814E8 /* ItemTableViewCell.swift */; };
 		421E752D1DB430AD007814E8 /* sparklingWater.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 421E752C1DB430AD007814E8 /* sparklingWater.jpg */; };
+		421E75311DB513E9007814E8 /* cocaCola.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 421E752E1DB513E9007814E8 /* cocaCola.jpg */; };
+		421E75321DB513E9007814E8 /* blackTea.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 421E752F1DB513E9007814E8 /* blackTea.jpg */; };
+		421E75331DB513E9007814E8 /* orangeJuice.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 421E75301DB513E9007814E8 /* orangeJuice.jpg */; };
+		421E75381DB5151E007814E8 /* pepperoni.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 421E75341DB5151E007814E8 /* pepperoni.jpg */; };
+		421E75391DB5151E007814E8 /* margarita.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 421E75351DB5151E007814E8 /* margarita.jpg */; };
+		421E753A1DB5151E007814E8 /* fourCheese.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 421E75361DB5151E007814E8 /* fourCheese.jpg */; };
+		421E753B1DB5151E007814E8 /* marinara.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 421E75371DB5151E007814E8 /* marinara.jpg */; };
+		421E75401DB51605007814E8 /* coleslaw.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 421E753C1DB51605007814E8 /* coleslaw.jpg */; };
+		421E75411DB51605007814E8 /* cesar.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 421E753D1DB51605007814E8 /* cesar.jpg */; };
+		421E75421DB51605007814E8 /* greekSalad.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 421E753E1DB51605007814E8 /* greekSalad.jpg */; };
+		421E75431DB51605007814E8 /* greenSalad.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 421E753F1DB51605007814E8 /* greenSalad.jpg */; };
+		421E75471DB5173C007814E8 /* avocadoBurger.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 421E75441DB5173C007814E8 /* avocadoBurger.jpg */; };
+		421E75481DB5173C007814E8 /* italianBurger.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 421E75451DB5173C007814E8 /* italianBurger.jpg */; };
+		421E75491DB5173C007814E8 /* baconBurger.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 421E75461DB5173C007814E8 /* baconBurger.jpg */; };
+		421E754B1DB51744007814E8 /* classicBurger.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 421E754A1DB51744007814E8 /* classicBurger.jpg */; };
 		423CFB741DA2C68C00A75EB5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 423CFB731DA2C68C00A75EB5 /* AppDelegate.swift */; };
 		423CFB761DA2C68C00A75EB5 /* CategoriesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 423CFB751DA2C68C00A75EB5 /* CategoriesViewController.swift */; };
 		423CFB791DA2C68C00A75EB5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 423CFB771DA2C68C00A75EB5 /* Main.storyboard */; };
@@ -26,6 +41,21 @@
 		421E75281DB40763007814E8 /* CategoryTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoryTableViewCell.swift; sourceTree = "<group>"; };
 		421E752A1DB41DB2007814E8 /* ItemTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemTableViewCell.swift; sourceTree = "<group>"; };
 		421E752C1DB430AD007814E8 /* sparklingWater.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sparklingWater.jpg; sourceTree = "<group>"; };
+		421E752E1DB513E9007814E8 /* cocaCola.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cocaCola.jpg; sourceTree = "<group>"; };
+		421E752F1DB513E9007814E8 /* blackTea.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = blackTea.jpg; sourceTree = "<group>"; };
+		421E75301DB513E9007814E8 /* orangeJuice.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = orangeJuice.jpg; sourceTree = "<group>"; };
+		421E75341DB5151E007814E8 /* pepperoni.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pepperoni.jpg; sourceTree = "<group>"; };
+		421E75351DB5151E007814E8 /* margarita.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = margarita.jpg; sourceTree = "<group>"; };
+		421E75361DB5151E007814E8 /* fourCheese.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = fourCheese.jpg; sourceTree = "<group>"; };
+		421E75371DB5151E007814E8 /* marinara.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = marinara.jpg; sourceTree = "<group>"; };
+		421E753C1DB51605007814E8 /* coleslaw.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = coleslaw.jpg; sourceTree = "<group>"; };
+		421E753D1DB51605007814E8 /* cesar.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cesar.jpg; sourceTree = "<group>"; };
+		421E753E1DB51605007814E8 /* greekSalad.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = greekSalad.jpg; sourceTree = "<group>"; };
+		421E753F1DB51605007814E8 /* greenSalad.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = greenSalad.jpg; sourceTree = "<group>"; };
+		421E75441DB5173C007814E8 /* avocadoBurger.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = avocadoBurger.jpg; sourceTree = "<group>"; };
+		421E75451DB5173C007814E8 /* italianBurger.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = italianBurger.jpg; sourceTree = "<group>"; };
+		421E75461DB5173C007814E8 /* baconBurger.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = baconBurger.jpg; sourceTree = "<group>"; };
+		421E754A1DB51744007814E8 /* classicBurger.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = classicBurger.jpg; sourceTree = "<group>"; };
 		423CFB701DA2C68C00A75EB5 /* DeliveryFromLocals.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DeliveryFromLocals.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		423CFB731DA2C68C00A75EB5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		423CFB751DA2C68C00A75EB5 /* CategoriesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesViewController.swift; sourceTree = "<group>"; };
@@ -55,6 +85,21 @@
 		421E75251DB4060B007814E8 /* Data */ = {
 			isa = PBXGroup;
 			children = (
+				421E754A1DB51744007814E8 /* classicBurger.jpg */,
+				421E75441DB5173C007814E8 /* avocadoBurger.jpg */,
+				421E75451DB5173C007814E8 /* italianBurger.jpg */,
+				421E75461DB5173C007814E8 /* baconBurger.jpg */,
+				421E753C1DB51605007814E8 /* coleslaw.jpg */,
+				421E753D1DB51605007814E8 /* cesar.jpg */,
+				421E753E1DB51605007814E8 /* greekSalad.jpg */,
+				421E753F1DB51605007814E8 /* greenSalad.jpg */,
+				421E75341DB5151E007814E8 /* pepperoni.jpg */,
+				421E75351DB5151E007814E8 /* margarita.jpg */,
+				421E75361DB5151E007814E8 /* fourCheese.jpg */,
+				421E75371DB5151E007814E8 /* marinara.jpg */,
+				421E752E1DB513E9007814E8 /* cocaCola.jpg */,
+				421E752F1DB513E9007814E8 /* blackTea.jpg */,
+				421E75301DB513E9007814E8 /* orangeJuice.jpg */,
 				421E752C1DB430AD007814E8 /* sparklingWater.jpg */,
 				421E75261DB4060B007814E8 /* document.json */,
 			);
@@ -178,10 +223,25 @@
 			buildActionMask = 2147483647;
 			files = (
 				421E75271DB4060B007814E8 /* document.json in Resources */,
+				421E75491DB5173C007814E8 /* baconBurger.jpg in Resources */,
 				423CFB7E1DA2C68C00A75EB5 /* LaunchScreen.storyboard in Resources */,
+				421E75471DB5173C007814E8 /* avocadoBurger.jpg in Resources */,
+				421E75411DB51605007814E8 /* cesar.jpg in Resources */,
+				421E75431DB51605007814E8 /* greenSalad.jpg in Resources */,
+				421E75381DB5151E007814E8 /* pepperoni.jpg in Resources */,
+				421E75331DB513E9007814E8 /* orangeJuice.jpg in Resources */,
 				423CFB7B1DA2C68C00A75EB5 /* Assets.xcassets in Resources */,
 				423CFB791DA2C68C00A75EB5 /* Main.storyboard in Resources */,
+				421E753B1DB5151E007814E8 /* marinara.jpg in Resources */,
+				421E75391DB5151E007814E8 /* margarita.jpg in Resources */,
+				421E75311DB513E9007814E8 /* cocaCola.jpg in Resources */,
+				421E754B1DB51744007814E8 /* classicBurger.jpg in Resources */,
+				421E75421DB51605007814E8 /* greekSalad.jpg in Resources */,
+				421E75481DB5173C007814E8 /* italianBurger.jpg in Resources */,
+				421E753A1DB5151E007814E8 /* fourCheese.jpg in Resources */,
+				421E75321DB513E9007814E8 /* blackTea.jpg in Resources */,
 				421E752D1DB430AD007814E8 /* sparklingWater.jpg in Resources */,
+				421E75401DB51605007814E8 /* coleslaw.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -25,23 +25,24 @@
                             </view>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="88" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="Yim-X7-TPs">
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <inset key="separatorInset" minX="15" minY="0.0" maxX="0.0" maxY="0.0"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="CategoryCell" id="gl4-3N-uch" customClass="CategoryTableViewCell" customModule="DeliveryFromLocals" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="CategoryCell" id="gl4-3N-uch" customClass="CategoryTableViewCell" customModule="DeliveryFromLocals" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="28" width="375" height="88"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="gl4-3N-uch" id="6aP-h7-bFd">
-                                            <frame key="frameInset" width="375" height="87"/>
+                                            <frame key="frameInset" width="375" height="88"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="guJ-Ho-ftS">
-                                                    <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="guJ-Ho-ftS">
+                                                    <fontDescription key="fontDescription" type="system" pointSize="22"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                             </subviews>
                                             <constraints>
                                                 <constraint firstItem="guJ-Ho-ftS" firstAttribute="centerY" secondItem="6aP-h7-bFd" secondAttribute="centerY" id="1MO-JQ-OrX"/>
-                                                <constraint firstItem="guJ-Ho-ftS" firstAttribute="leading" secondItem="6aP-h7-bFd" secondAttribute="leading" constant="16" id="gM5-yG-wrs"/>
+                                                <constraint firstItem="guJ-Ho-ftS" firstAttribute="leading" secondItem="6aP-h7-bFd" secondAttribute="leading" constant="15" id="gM5-yG-wrs"/>
                                                 <constraint firstAttribute="trailing" secondItem="guJ-Ho-ftS" secondAttribute="trailing" constant="10" id="nFl-7t-rpa"/>
                                             </constraints>
                                         </tableViewCellContentView>
@@ -95,12 +96,13 @@
                             </view>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="88" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="cUa-M7-AQr" userLabel="Items Table View">
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <inset key="separatorInset" minX="15" minY="0.0" maxX="0.0" maxY="0.0"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="ItemCell" id="Bri-ys-pmx" userLabel="ItemCell" customClass="ItemTableViewCell" customModule="DeliveryFromLocals" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="ItemCell" id="Bri-ys-pmx" userLabel="ItemCell" customClass="ItemTableViewCell" customModule="DeliveryFromLocals" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="28" width="375" height="88"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Bri-ys-pmx" id="2FJ-BX-Ygi">
-                                            <frame key="frameInset" width="375" height="87"/>
+                                            <frame key="frameInset" width="375" height="88"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wH7-7f-0xH">
@@ -111,7 +113,7 @@
                                             </subviews>
                                             <constraints>
                                                 <constraint firstAttribute="trailing" secondItem="wH7-7f-0xH" secondAttribute="trailing" constant="10" id="Ob5-Mt-idV"/>
-                                                <constraint firstItem="wH7-7f-0xH" firstAttribute="leading" secondItem="2FJ-BX-Ygi" secondAttribute="leading" constant="16" id="tnP-Qs-vwH"/>
+                                                <constraint firstItem="wH7-7f-0xH" firstAttribute="leading" secondItem="2FJ-BX-Ygi" secondAttribute="leading" constant="15" id="tnP-Qs-vwH"/>
                                                 <constraint firstItem="wH7-7f-0xH" firstAttribute="centerY" secondItem="2FJ-BX-Ygi" secondAttribute="centerY" id="xY9-t7-fnw"/>
                                             </constraints>
                                         </tableViewCellContentView>
@@ -193,7 +195,7 @@
                                 </constraints>
                             </view>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fF9-dW-DgC">
-                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="backgroundColor" red="0.80784313725490198" green="0.80784313725490198" blue="0.80784313725490198" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="44" id="MKO-yr-K7I"/>
                                 </constraints>

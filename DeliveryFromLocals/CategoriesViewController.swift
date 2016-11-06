@@ -10,6 +10,7 @@ import UIKit
 import SwiftyJSON
 
 class CategoriesViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
+    
     @IBOutlet weak var categoriesTableView: UITableView!
 
     var categoriesJson: JSON = JSON.null
@@ -32,7 +33,7 @@ class CategoriesViewController: UIViewController, UITableViewDataSource, UITable
         } else {
             self.categoriesJson = JSON.null
         }
-        
+        categoriesTableView.tableFooterView = UIView()
     }
 
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
@@ -69,7 +70,6 @@ class CategoriesViewController: UIViewController, UITableViewDataSource, UITable
         }
     }
     
-
-
 }
+
 

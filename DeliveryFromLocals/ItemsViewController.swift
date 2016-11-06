@@ -10,12 +10,11 @@ import UIKit
 import  SwiftyJSON
 
 class ItemsViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
+    
     @IBOutlet weak var itemsTableView: UITableView!
     
     var itemsJSON: JSON = JSON.null
     var currentCategoryJSON: JSON = JSON.null
-    
-    
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -23,6 +22,7 @@ class ItemsViewController: UIViewController, UITableViewDataSource, UITableViewD
         if currentCategoryJSON["items"].type == .array {
             self.itemsJSON = currentCategoryJSON["items"]
         }
+        itemsTableView.tableFooterView = UIView()
     }
 
     override func didReceiveMemoryWarning() {
